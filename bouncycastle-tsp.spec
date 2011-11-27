@@ -4,7 +4,7 @@
 Summary:          TSP libraries for Bouncy Castle
 Name:             bouncycastle-tsp
 Version:          %{ver}
-Release:          1
+Release:          3
 Group:            System/Libraries
 License:          MIT
 URL:              http://www.bouncycastle.org/
