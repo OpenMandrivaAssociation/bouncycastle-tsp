@@ -1,3 +1,2 @@
 sources:
-  "bctsp-jdk16-1.46.pom:"	b3021645a6c8a1c74ed4cd9bbcdc1bc294a6bd04
-  "bctsp-jdk16-146.tar.gz:"	513bc54d3cd213fa64a0628e09c88df11281a9b3
+  store bctsp-jdk16-146.tar.gz: 513bc54d3cd213fa64a0628e09c88df11281a9b3
