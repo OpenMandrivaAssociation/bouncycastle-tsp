@@ -83,7 +83,7 @@ cp -pr docs/* $RPM_BUILD_ROOT%{_javadocdir}/%{name}
 # maven pom
 install -dm 755 $RPM_BUILD_ROOT%{_mavenpomdir}
 install -pm 644 %{SOURCE1} $RPM_BUILD_ROOT%{_mavenpomdir}/JPP-bctsp.pom
-%add_to_maven_depmap org.bouncycastle bctsp-jdk16 %{version} JPP bctsp
+%add_maven_depmap JPP-bctsp.pom bctsp.jar
 
 %check
 pushd src
