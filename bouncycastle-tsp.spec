@@ -5,7 +5,7 @@
 Summary:          TSP libraries for Bouncy Castle
 Name:             bouncycastle-tsp
 Version:          %{ver}
-Release:          6.0%{?dist}
+Release:          6.1%{?dist}
 
 License:          MIT
 URL:              http://www.bouncycastle.org/
@@ -94,13 +94,6 @@ pushd src
     %java org.junit.runner.JUnitCore $test || :
   done
 popd
-
-%post
-%update_maven_depmap
-
-%postun
-%update_maven_depmap
-
 
 %files
 %doc *.html
