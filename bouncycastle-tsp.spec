@@ -8,7 +8,7 @@ Version:          %{ver}
 Release:          6.1%{?dist}
 
 License:          MIT
-URL:              http://www.bouncycastle.org/
+URL:              https://www.bouncycastle.org/
 Source0:          http://www.bouncycastle.org/download/bctsp-%{archivever}.tar.gz
 Source1:          http://repo2.maven.org/maven2/org/bouncycastle/bctsp-jdk16/%{version}/bctsp-jdk16-%{version}.pom
 BuildRequires:    jpackage-utils >= 1.5
